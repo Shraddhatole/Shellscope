@@ -1,0 +1,15 @@
+# Data is large and re-downloadable: never commit it
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+*.zip
+*.csv
+*.parquet
+*.pkl
+
+# Python / editors
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.vscode/
+.DS_Store
