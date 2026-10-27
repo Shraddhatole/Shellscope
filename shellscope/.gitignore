@@ -13,3 +13,4 @@ __pycache__/
 .venv/
 .vscode/
 .DS_Store
+data/
